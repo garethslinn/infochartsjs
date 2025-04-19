@@ -33,7 +33,11 @@ const MainContent = () => (
         <Routes>
             <Route path="/" element={
                 <section>
-                    <h2 id="main-heading">Welcome</h2>
+                    <h2 id="main-heading">Welcome to InfoCharts,</h2>
+                    <p>
+                        This is a comprehensive library of customisable and accessible chart components built with React. The library includes many different charts that cover a wide range of data visualisation needs. Each chart is designed to be responsive, customisable, and easy to integrate into your projects.
+                    </p>
+                    <p>Please use the left hand navigation to inspect graphs available.</p>
                 </section>
             } />
 
