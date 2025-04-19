@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+}
+
+.layout {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    display: block;
+    padding: 0.5rem 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar a:focus,
+.sidebar a:hover {
+    background-color: #ddd;
+    outline: 2px solid #005fcc;
+}
+
+.main {
+    flex: 1;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.accessibility {
+    position: absolute;
+    top: -3000px;
+}
